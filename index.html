@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta fav>
+    <link rel="icon" type="image/x-icon" href="./assets/icon/Logo-navbar.ico">
+    <title>Metal Palace</title>
+
+    <!--------------------Bootstrap 5.2------------------------------------->
+    <link rel="stylesheet" href="./Lib/bootstrap-5.0.2/css/bootstrap.css">
+
+    <!--------------------Bootstrap JavaScript------------------------------>
+    <script src="./Lib/bootstrap-5.0.2/js/bootstrap.js"></script>
+
+    <!--------------------Font Awesome------------------------------>
+    <link rel="stylesheet" href="./Lib/fontawesome-free-6.4.0/css/all.css">
+
+    <!---------------------Hojas de estilos Personalizada------------------>
+    <link rel="stylesheet" href="./Metal.css">
+
+    <!----------------------JavaScript Personalizado---------------------->
+    <script defer src="./Metal.js"></script>
+
+
+</head>
+
+<body class="background-gradient" onload=" CargaDatos() ">
+    <!----------------------------------------------------Componente Narbar--------------------------------------------->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg background-gradient" id="nav">
+                    <div class="container-fluid ">
+
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="../MetalWeb/assets/svgs/Logo-navbar-OjosVioleta.svg" id="imagenLogoVioleta"
+                                alt="..." width="140" height="130">
+                            <img src="../MetalWeb/assets/svgs/Logo-navbar-blanco.svg" id="imagenLogoBlanco" alt=""
+                                width="140" height="130">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=" text-light metal-navbar ">Menu</span>
+                        </button>
+
+                        <div class="collapse navbar-collapse metal-navbar" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link " aria-current="page" href="./pages/generos.html">Generos</a>
+                                <a class="nav-link" href="./pages/Eventos.html">Eventos</a>
+                                <a class="nav-link" href="./index.html#contactos">Contacto</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- -------------------------------------------Componente Carrusel------------------------------------------------------ -->
+    <div class="container-fluid" id="contenedorCarrusel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/metallica-2021-concert-1024x555.jpg" class="d-block" alt="...">
+                    <div class="carruselTexto">
+                        <h2>Metallica la rompió en la pedrera</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid ad deleniti officiis
+                            totam magni assumenda voluptatum distinctio, nostrum enim dolorem quis laborum ullam
+                            laboriosam inventore, voluptatibus nam tempora dolores.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/HIKF7E7IEVFIZEEAV4ZMNFEXE4.jpg" class="d-block" alt="...">
+                    <div class="carruselTexto">
+                        <h2>Asspera tocó en el patio de mi casa!</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam at eius quia voluptates
+                            incidunt alias dolorem itaque expedita, excepturi id commodi, eaque fuga laboriosam
+                            dignissimos quasi omnis. Qui, odio excepturi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/5687ca19-helloween-arena-cdmx-concierto_lacarteleramx_mx.jpg"
+                        class="d-block" alt="...">
+                    <div class="carruselTexto">
+                        <h2>Helloween viene al ave fenix?</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque assumenda, nulla fuga odit
+                            possimus placeat earum quidem commodi quas. Quos ducimus ipsa inventore, nemo necessitatibus
+                            harum fuga maiores nobis pariatur!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previo</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <!----------------------------------------------------Componente Seccion 1-------------------------------------------------->
+    <div class="container-fluid background-gradient" id="contenedorSeccion1" >
+        <div class="row">
+
+            <div class="col-xl-8">
+                <!----------------Esta seccion pertenece al lado Izquierdo donde se encuentran las tarjetas-------------------------->
+                <div class="container-fluid seccion-1">
+                    <h1>Mas Escuchados</h1>
+                    <div class="row m-3">
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info text-light">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-3">
+                            <div class="card card-bandas">
+                                <img class="" src="./assets/images/imagen-ejemplo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <ul class="list-group card-text">
+                                        <li class="list-group-item card-info">Cantidad de Albums:15</li>
+                                        <li class="list-group-item card-info">Año Debut: 1988</li>
+                                        <li class="list-group-item card-info">Año de Disolucion: 2005</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------------------------------------------------------------------------------------------------->
+            </div>
+
+            <!----------------Esta seccion pertenece al lado Derecho donde se encuentra el Aside------------------------------->
+            <div class="col-xl-4" id="columnaAside">
+                <section class="mt-5" id="lanzamientos">
+                    <h2>Nuevos lanzamientos</h2>
+                    <div class="contenidoLanzamientos">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./assets/images/ImagenesAside/hammerfall-dominion.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Hammerfall</h3>
+                                    <p>Dominion</p>
+                                    <p>Power Metal</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./assets/images/ImagenesAside/war-against-all.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Inmortal</h3>
+                                    <p>War Against All</p>
+                                    <p>Heavy Metal</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./assets/images/ImagenesAside/afterlife.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Five Finger Death Punch</h3>
+                                    <p>Afterlife</p>
+                                    <p>Groove Metal</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./assets/images/ImagenesAside/The-Ninth-Hour-cover.jpeg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Sonata Arctica</h3>
+                                    <p>The Ninth Hour</p>
+                                    <p>Power Metal</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="./assets/images/ImagenesAside/rumble-of-thunder.jpg" alt="...">
+                                </div>
+                                <div class="col-9">
+                                    <h3>The Hu</h3>
+                                    <p>Rumble Of Thunder</p>
+                                    <p>Folk Metal</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </section>
+                <!--------------------------------------------------------------------------------------------------------------------------->
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------------------------->
+
+
+    
+        <!-----------------------------------------Componente Formulario Consulta-------------------------------------------------->
+        <div class="container consulta" id="consulta">
+            <h2>Envianos Tu Banda favorita</h2>
+            <div class="row formualrio-consulta">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control campo-texto" id="exampleFormControlInput1"
+                        placeholder="email@dominio.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control campo-texto" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-light  m-5" onclick="DatosGenero1()">Enviar</button>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------------------------->
+
+   <!---------------------------------------------------Componente Footer------------------------------------------------------->
+        <footer class="d text-center mt-53">
+            <div class="card text-center metal-footer">
+                <div class="card-header">
+                    <div class="row mt-3 mb-5">
+                        <div class="col-8 d-flex justify-content-center">
+                            <h5 class="text-center">Síguenos en:</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-youtube  fa-2xl mt-4"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-facebook  fa-2xl mt-4"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-instagram  fa-2xl mt-4"></i></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                            class="fa-brands fa-whatsapp  fa-2xl mt-4"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 footer-col">
+                                <h3>Generos</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Power Metal</li>
+                                    <li class="list-group-item">Heavy Metal</li>
+                                    <li class="list-group-item">Doom Metal</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 footer-col">
+                                <h3>Productos</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Eventos</li>
+                                    <li class="list-group-item">Entradas</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 footer-col">
+                                <h3>Contacto</h3>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Contacto</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 footer-col">
+                                <h3>Dirección</h3>
+                                <p>
+                                    CABA - Argentina <br />
+                                    carrasco 400
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <p>Copyright &copy;
+                            <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-------------------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>

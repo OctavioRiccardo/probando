@@ -1,0 +1,781 @@
+{
+    "titulo": "Power Metal",
+    "imagen": "./assets/images/Bandas y Discos/Power Metal/power-metal.jpg",
+    "descripcion": "El power metal es un subgénero del heavy metal que combina elementos del metal tradicional con metal neoclásico. Forma parte de una de las vertientes del speed metal. A diferencia del thrash metal (otra variante del speed metal) el power metal bien definido se concentra en la velocidad, los arreglos melódicos y la técnica instrumental.",
+    "bandas": [
+        {
+            "titulo": "Blind Guardian",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/image.jpg",
+            "pais": "Alemania",
+            "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1986",
+            "integrantes": [
+                {
+                    "nombre": "Hansi Kürsch",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "André Olbrich",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Frederik Ehmke",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Battalions of Fear",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Battalions of Fear_7478.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Majesty"
+                        },
+                        {
+                            "nombre": "Guardian of the Blind"
+                        },
+                        {
+                            "nombre": "Trial by the Archon"
+                        },
+                        {
+                            "nombre": "Wizard's Crown"
+                        },
+                        {
+                            "nombre": "Run for the Night"
+                        },
+                        {
+                            "nombre": "The Martyr"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Follow the Blind",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Follow the Blind_8414.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Inquisition"
+                        },
+                        {
+                            "nombre": "Banish from Sanctuary"
+                        },
+                        {
+                            "nombre": "Damned for All Time"
+                        },
+                        {
+                            "nombre": "Follow the Blind"
+                        },
+                        {
+                            "nombre": "Hall of the King"
+                        },
+                        {
+                            "nombre": "Fast to Madness"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Somewhere Far Beyond",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Somewhere Far Beyond_1341.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Time What Is Time"
+                        },
+                        {
+                            "nombre": "Journey through the Dark"
+                        },
+                        {
+                            "nombre": "Black Chamber"
+                        },
+                        {
+                            "nombre": "Theatre of Pain"
+                        },
+                        {
+                            "nombre": "The Quest for Tanelorn"
+                        },
+                        {
+                            "nombre": "Ashes to Ashes"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Nightfall in Middle-Earth",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Blind Guardian/Nightfall in Middle-Earth_2574.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "War of Wrath"
+                        },
+                        {
+                            "nombre": "Into the Storm"
+                        },
+                        {
+                            "nombre": "Lammoth"
+                        },
+                        {
+                            "nombre": "Nightfall"
+                        },
+                        {
+                            "nombre": "The Minstrel"
+                        },
+                        {
+                            "nombre": "The Curse of Feanor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Helloween",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Helloween/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Helloween/image.jpg",
+            "pais": "Alemania",
+            "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1983",
+            "integrantes": [
+                {
+                    "nombre": "Andi Deris",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Michael Weikath",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Dani Löble",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Walls of Jericho",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/walls-of-Jericho.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Walls of Jericho"
+                        },
+                        {
+                            "nombre": "Ride the Sky"
+                        },
+                        {
+                            "nombre": "Reptile"
+                        },
+                        {
+                            "nombre": "Guardians"
+                        },
+                        {
+                            "nombre": "Phantoms of Death"
+                        },
+                        {
+                            "nombre": "Metal Invaders"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Keeper of the Seven Keys - Part II",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/keeper-of-the-seven-keys-part-ii-5e80af9c85a94.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Invitation"
+                        },
+                        {
+                            "nombre": "Eagle Fly Free"
+                        },
+                        {
+                            "nombre": "You Always Walk Alone"
+                        },
+                        {
+                            "nombre": "Rise and Fall"
+                        },
+                        {
+                            "nombre": "Dr. Stein"
+                        },
+                        {
+                            "nombre": "We Got the Right"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Better Than Raw",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/Better-than-raw.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Push"
+                        },
+                        {
+                            "nombre": "Falling Higher"
+                        },
+                        {
+                            "nombre": "Hey Lord !"
+                        },
+                        {
+                            "nombre": "Don't Spit on My Mind"
+                        },
+                        {
+                            "nombre": "Revelation"
+                        },
+                        {
+                            "nombre": "Time"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "The Dark Ride",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Helloween/the-dark-ride.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Beyond the Portal"
+                        },
+                        {
+                            "nombre": "Mr. Torture"
+                        },
+                        {
+                            "nombre": "All Over the Nations"
+                        },
+                        {
+                            "nombre": "Escalation 666"
+                        },
+                        {
+                            "nombre": "Mirror Mirror"
+                        },
+                        {
+                            "nombre": "If I Could Fly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Rhapsody",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/image.png",
+            "pais": "Italia",
+            "genero": "Symphonic power",
+            "estado":"Cambiaron el nombre",
+            "año":"1995-2006",
+            "integrantes": [
+                {
+                    "nombre": "Fabio Lione",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Luca Turilli",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Alex Holzwarth",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Legendary Tales",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/legendary-tales.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Ira Tenax"
+                        },
+                        {
+                            "nombre": "Warrior of Ice"
+                        },
+                        {
+                            "nombre": "Rage of the Winter"
+                        },
+                        {
+                            "nombre": "Forest of Unicorns"
+                        },
+                        {
+                            "nombre": "Flames of Revenge"
+                        },
+                        {
+                            "nombre": "Virgin Skies"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Symphony of Enchanted Lands",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/soel.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Epicus Furor"
+                        },
+                        {
+                            "nombre": "Emerald Sword"
+                        },
+                        {
+                            "nombre": "Wisdom of the Kings"
+                        },
+                        {
+                            "nombre": "Heroes of the Lost Valley"
+                        },
+                        {
+                            "nombre": "Eternal Glory"
+                        },
+                        {
+                            "nombre": "Beyond the Gates of Infinity"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Dawn of Victory",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/Rhapsody-Dawn-of-Victory.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Lux Triumphans"
+                        },
+                        {
+                            "nombre": "Dawn of Victory"
+                        },
+                        {
+                            "nombre": "Triumph for My Magic Steel"
+                        },
+                        {
+                            "nombre": "The Village of Dwarves"
+                        },
+                        {
+                            "nombre": "Dargor, Shadowlord of the Black Mountain"
+                        },
+                        {
+                            "nombre": "The Bloody Rage of the Titans"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Symphony of Enchanted Lands II",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Rhapsody/Symphony-of-Enchanted-Lands-2.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Dark Secret / Ira Divina"
+                        },
+                        {
+                            "nombre": "Unholy Warcry"
+                        },
+                        {
+                            "nombre": "Never Forgotten Heroes"
+                        },
+                        {
+                            "nombre": "Elgard's Green Valleys"
+                        },
+                        {
+                            "nombre": "The Magic of the Wizard's Dream"
+                        },
+                        {
+                            "nombre": "Erian's Mystical Rhymes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Sonata Arctica",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/image.jpg",
+            "pais": "Finlandia",
+            "genero": "Melodic Power",
+            "estado":"Activo",
+            "año":"1996",
+            "integrantes": [
+                {
+                    "nombre": "Tony Kakko",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Elias Viljanen",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Tommy Portimo",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Ecliptica",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Ecliptica.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Blank File"
+                        },
+                        {
+                            "nombre": "My Land"
+                        },
+                        {
+                            "nombre": "8th Commandment"
+                        },
+                        {
+                            "nombre": "Replica"
+                        },
+                        {
+                            "nombre": "Kingdom for a Heart"
+                        },
+                        {
+                            "nombre": "FullMoon"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Silence",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Silence.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "… of Silence"
+                        },
+                        {
+                            "nombre": "Weballergy"
+                        },
+                        {
+                            "nombre": "False News Travel Fast"
+                        },
+                        {
+                            "nombre": "The End of this Chapter"
+                        },
+                        {
+                            "nombre": "Black Sheep"
+                        },
+                        {
+                            "nombre": "Land of the Free"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Unia",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Unia.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "In Black and White"
+                        },
+                        {
+                            "nombre": "Paid in Full"
+                        },
+                        {
+                            "nombre": "For the Sake of Revenge"
+                        },
+                        {
+                            "nombre": "It Won't Fade"
+                        },
+                        {
+                            "nombre": "Under Your Tree"
+                        },
+                        {
+                            "nombre": "Caleb"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Pariah's Child",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Sonata Arctica/Pariah's-Child.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Wolves Die Young"
+                        },
+                        {
+                            "nombre": "Running Lights"
+                        },
+                        {
+                            "nombre": "Take One Breath"
+                        },
+                        {
+                            "nombre": "Cloud Factory"
+                        },
+                        {
+                            "nombre": "Blood"
+                        },
+                        {
+                            "nombre": "What Did You Do in the War, Dad?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Masayoshi Takanaka",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/image.jpg",
+            "pais": "Japón",
+            "genero": "Takanaka Power",
+            "estado":"Activo",
+            "año":"1971",
+            "integrantes": [
+                {
+                    "nombre": "Masayoshi Takanaka",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Masayoshi Takanaka",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Badum Ts",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Takanaka",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/Takanaka.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Summer Breeze"
+                        },
+                        {
+                            "nombre": "Mambo No.5 (Disco Dango)"
+                        },
+                        {
+                            "nombre": "Sweet Agnes"
+                        },
+                        {
+                            "nombre": "Mambo Magic"
+                        },
+                        {
+                            "nombre": "I Remember You"
+                        },
+                        {
+                            "nombre": "Gascon Cocktail"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "The Rainbow Goblins",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/the-rainbow-goblins.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Prologue"
+                        },
+                        {
+                            "nombre": "Once Upon a Song"
+                        },
+                        {
+                            "nombre": "Seven Goblins"
+                        },
+                        {
+                            "nombre": "The Sunset Valley"
+                        },
+                        {
+                            "nombre": "The Moon Rose"
+                        },
+                        {
+                            "nombre": "Soon"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Brasilian Skies",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/Brasilian-Skies.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Beleze Pula"
+                        },
+                        {
+                            "nombre": "Brasilian Skies"
+                        },
+                        {
+                            "nombre": "Nights"
+                        },
+                        {
+                            "nombre": "I Remember Clifford"
+                        },
+                        {
+                            "nombre": "Star Wars Samba"
+                        },
+                        {
+                            "nombre": "Disco B"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "All Of Me",
+                    "imgAlbum": "assets/images/Bandas y Discos/Power Metal/Masayoshi Takanaka/all-of-me.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Oh! Tengo Suerte"
+                        },
+                        {
+                            "nombre": "Tokyo Reggy"
+                        },
+                        {
+                            "nombre": "Sweet Agnes"
+                        },
+                        {
+                            "nombre": "Akogareno Seychelles Shoto"
+                        },
+                        {
+                            "nombre": "I Remember You"
+                        },
+                        {
+                            "nombre": "Izu Amantsu Nato Uri"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Angra",
+            "imgLogo": "./assets/images/Bandas y Discos/Power Metal/Angra/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Power Metal/Angra/image.jpg",
+            "pais": "Brasil",
+            "genero": "Symphonic power",
+            "estado":"Activo",
+            "año":"1991",
+            "integrantes": [
+                {
+                    "nombre": "Fabio Lione",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Marcelo Barbosa",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Bruno Valverde",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Angels Cry",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/angels-cry.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Carry on"
+                        },
+                        {
+                            "nombre": "Time"
+                        },
+                        {
+                            "nombre": "Angels Cry"
+                        },
+                        {
+                            "nombre": "Stand Away"
+                        },
+                        {
+                            "nombre": "Never Understand"
+                        },
+                        {
+                            "nombre": "Wutherings Heights"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Holy Land",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/holy-land.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nothing to Say"
+                        },
+                        {
+                            "nombre": "Silence and Distance"
+                        },
+                        {
+                            "nombre": "Carolina IV"
+                        },
+                        {
+                            "nombre": "Holy Land"
+                        },
+                        {
+                            "nombre": "The Shaman"
+                        },
+                        {
+                            "nombre": "Make Believe"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Rebirth",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Rebirth.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Nova Era"
+                        },
+                        {
+                            "nombre": "Millennium Sun"
+                        },
+                        {
+                            "nombre": "Acid Rain"
+                        },
+                        {
+                            "nombre": "Heroes of Sand"
+                        },
+                        {
+                            "nombre": "Unholy Wars"
+                        },
+                        {
+                            "nombre": "Rebirth"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Temple of Shadows",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Angra_Temple-of-Shadows.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Deus Le Volt !"
+                        },
+                        {
+                            "nombre": "Spread Your Fire"
+                        },
+                        {
+                            "nombre": "Angels and Demons"
+                        },
+                        {
+                            "nombre": "Waiting Silence"
+                        },
+                        {
+                            "nombre": "Wishing Well"
+                        },
+                        {
+                            "nombre": "The Temple of Hate"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Aqua",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/angra-aqua.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Arising Thunder"
+                        },
+                        {
+                            "nombre": "Awake from Darkness"
+                        },
+                        {
+                            "nombre": "Lease of Life"
+                        },
+                        {
+                            "nombre": "The Rage of the Waters"
+                        },
+                        {
+                            "nombre": "Spirit of the Air"
+                        },
+                        {
+                            "nombre": "Hollow"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Secret Garden",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Power Metal/Angra/Secret-Garden.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Newborn Me"
+                        },
+                        {
+                            "nombre": "Black Hearted Soul"
+                        },
+                        {
+                            "nombre": "Final Light"
+                        },
+                        {
+                            "nombre": "Storm of Emotions"
+                        },
+                        {
+                            "nombre": "Synchronicity II"
+                        },
+                        {
+                            "nombre": "Violet Sky"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

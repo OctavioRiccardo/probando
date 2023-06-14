@@ -1,0 +1,491 @@
+{
+    "titulo": "Doom Metal",
+    "imagen": "./assets/images/Bandas y Discos/Doom Metal/Doom_Metal_1.jpg",
+    "descripcion": "El doom metal es un subgénero extremo del heavy metal, se distingue por su atmósfera lenta y pesada, de tonalidad oscura con riffs graves.",
+    "bandas": [
+        {
+            "titulo": "Cathedral",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/img.jpg",
+            "pais": "Reino Unido",
+            "genero": "Doom Metal",
+            "estado":"Inactivo",
+            "año":"1989-2013",
+            "integrantes": [
+                {
+                    "nombre": "Lee Dorrian",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Garry Jennings",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Bryan Dixon",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Soul Sacrifice-Statik Majik",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/soul-sacrifice-statik-majik.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Soul Sacrifice"
+                        },
+                        {
+                            "nombre": "Autumn Twilight"
+                        },
+                        {
+                            "nombre": "Frozen Rapture"
+                        },
+                        {
+                            "nombre": "Golden Blood (Flooding)"
+                        },
+                        {
+                            "nombre": "Midnight Mountain"
+                        },
+                        {
+                            "nombre": "Hypnos 164"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Supernatural Birth Machine",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/Supernatural-Birth-Machine.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Cybertron 71 - Eternal Countdown"
+                        },
+                        {
+                            "nombre": "Urko's Conquest"
+                        },
+                        {
+                            "nombre": "Stained Glass Horizon"
+                        },
+                        {
+                            "nombre": "Cyclops Revolution"
+                        },
+                        {
+                            "nombre": "Birth Machine 2000"
+                        },
+                        {
+                            "nombre": "Nightmare Castle"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "The Last Spire",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/The-Last-Spire.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Entrance to Hell"
+                        },
+                        {
+                            "nombre": "Pallbearer"
+                        },
+                        {
+                            "nombre": "Cathedral of the Damned"
+                        },
+                        {
+                            "nombre": "Tower of Silence"
+                        },
+                        {
+                            "nombre": "Infestation of Grey Death"
+                        },
+                        {
+                            "nombre": "An Observation"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "The VIIth Coming",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Cathedral/The-Viith-Coming.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Phoenix Rising"
+                        },
+                        {
+                            "nombre": "Resisting the Ghost"
+                        },
+                        {
+                            "nombre": "Skullflower"
+                        },
+                        {
+                            "nombre": "Aphrodite's Winter"
+                        },
+                        {
+                            "nombre": "Empty Mirror"
+                        },
+                        {
+                            "nombre": "Nocturnal Fist"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Candlemass",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/image.jpg",
+            "pais": "Suecia",
+            "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1980",
+            "integrantes": [
+                {
+                    "nombre": "Johan Längquist",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Mats Bjorkman",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Jan Lindh",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "King of the Grey Islands",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/candlemass-king-if-the-grey-islands-cd-.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Prologue"
+                        },
+                        {
+                            "nombre": "Emperor of the Void"
+                        },
+                        {
+                            "nombre": "Devil Seed"
+                        },
+                        {
+                            "nombre": "Of Stars and Smoke"
+                        },
+                        {
+                            "nombre": "Demonia 6"
+                        },
+                        {
+                            "nombre": "Destroyer"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Epicus Doomicus Metallicus",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Epicus Doomicus Metallicus_4855.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Solitude"
+                        },
+                        {
+                            "nombre": "Demon's Gate"
+                        },
+                        {
+                            "nombre": "Crystal Ball"
+                        },
+                        {
+                            "nombre": "Black Stone Wielder"
+                        },
+                        {
+                            "nombre": "Under the Oak"
+                        },
+                        {
+                            "nombre": "A Sorcerer's Pledge"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Chapter VI",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Chapter-VI.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Dying Illusion"
+                        },
+                        {
+                            "nombre": "Julie Laughs No More"
+                        },
+                        {
+                            "nombre": "Where the Runes Still Speak"
+                        },
+                        {
+                            "nombre": "The Ebony Throne"
+                        },
+                        {
+                            "nombre": "Temple of the Dead"
+                        },
+                        {
+                            "nombre": "Aftermath"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Sweet Evil Sun",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Candlemass/Sweet Evil Sun_6074.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Wizard of the Vortex"
+                        },
+                        {
+                            "nombre": "Sweet Evil Sun"
+                        },
+                        {
+                            "nombre": "Angel Battle"
+                        },
+                        {
+                            "nombre": "Black Butterfly"
+                        },
+                        {
+                            "nombre": "When Death Sighs"
+                        },
+                        {
+                            "nombre": "Scandinavian Gods"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Trouble",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Trouble/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Trouble/image.jpg",
+            "pais": "USA",
+            "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1979",
+            "integrantes": [
+                {
+                    "nombre": "kyle Thomas",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Rick Wartell",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Marko Lira",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "Manic Frustration",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Manic-Frustration.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Come Touch the Sky"
+                        },
+                        {
+                            "nombre": "'Scuse Me"
+                        },
+                        {
+                            "nombre": "The Sleeper"
+                        },
+                        {
+                            "nombre": "Fear"
+                        },
+                        {
+                            "nombre": "Rain"
+                        },
+                        {
+                            "nombre": "Tragedy Man"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Plastic Green Head",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Plastic-Green-Head.JPG",
+                    "canciones": [
+                        {
+                            "nombre": "Plastic Green Head"
+                        },
+                        {
+                            "nombre": "The Eye"
+                        },
+                        {
+                            "nombre": "Flowers"
+                        },
+                        {
+                            "nombre": "Opium-Eater"
+                        },
+                        {
+                            "nombre": "Hear the Earth"
+                        },
+                        {
+                            "nombre": "Another Day"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Psalm 9",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Psalm-9.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Tempter"
+                        },
+                        {
+                            "nombre": "Assassin"
+                        },
+                        {
+                            "nombre": "Victim of the Insane"
+                        },
+                        {
+                            "nombre": "Revelation (Life or Death)"
+                        },
+                        {
+                            "nombre": "Bastards Will Pay"
+                        },
+                        {
+                            "nombre": "The Fall of Lucifer"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Run to the Light",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Trouble/Trouble-RuntotheLight.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Misery Shows"
+                        },
+                        {
+                            "nombre": "Thinking of the Past"
+                        },
+                        {
+                            "nombre": "On Borrowed Time"
+                        },
+                        {
+                            "nombre": "Run to the Light"
+                        },
+                        {
+                            "nombre": "Peace of Mind"
+                        },
+                        {
+                            "nombre": "Born in a Prison"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Saint Vitus",
+            "imgLogo": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/logo.png",
+            "imgBanda": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/image.jpg",
+            "pais": "USA",
+            "genero": "Doom Metal",
+            "estado":"Activo",
+            "año":"1979",
+            "integrantes": [
+                {
+                    "nombre": "Scott Weinrich",
+                    "Ocupacion":"Vocalista"
+                },
+                {
+                    "nombre": "Dave Chandler",
+                    "Ocupacion":"Guitarrista"
+                },
+                {
+                    "nombre": "Henry Vasquez",
+                    "Ocupacion":"Baterista"
+                }
+            ],
+            "albumes": [
+                {
+                    "titulo": "C.O.D.",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/C.O.D._4992.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Intro"
+                        },
+                        {
+                            "nombre": "Children of Doom"
+                        },
+                        {
+                            "nombre": "Planet of Judgement"
+                        },
+                        {
+                            "nombre": "Shadow of a Skeleton"
+                        },
+                        {
+                            "nombre": "(I Am) the Screaming Banshee"
+                        },
+                        {
+                            "nombre": "Plague of Man"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "V",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/V_5021.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Living Backwards"
+                        },
+                        {
+                            "nombre": "I Bleed Black"
+                        },
+                        {
+                            "nombre": "When Emotion Dies"
+                        },
+                        {
+                            "nombre": "Patra (Petra)"
+                        },
+                        {
+                            "nombre": "Ice Monkey"
+                        },
+                        {
+                            "nombre": "Jack Frost"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Born Too Late",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/Born Too Late_9806.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "Born Too Late"
+                        },
+                        {
+                            "nombre": "Clear Windowpane"
+                        },
+                        {
+                            "nombre": "Dying Inside"
+                        },
+                        {
+                            "nombre": "H.A.A.G."
+                        },
+                        {
+                            "nombre": "The Lost Feeling"
+                        },
+                        {
+                            "nombre": "The War Starter"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Mournful Cries",
+                    "imgAlbum": "./assets/images/Bandas y Discos/Doom Metal/Saint Vitus/Mournful Cries_2790.jpg",
+                    "canciones": [
+                        {
+                            "nombre": "The Creeps"
+                        },
+                        {
+                            "nombre": "Dragon Time"
+                        },
+                        {
+                            "nombre": "Shooting Gallery"
+                        },
+                        {
+                            "nombre": "Bitter Truth"
+                        },
+                        {
+                            "nombre": "The Troll"
+                        },
+                        {
+                            "nombre": "Looking Glass"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

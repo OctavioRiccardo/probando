@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Page</title>
+
+    <!--------------------Bootstrap 5.2------------------------------------->
+    <link rel="stylesheet" href="../Lib/bootstrap-5.0.2/css/bootstrap.css">
+
+    <!--------------------Bootstrap JavaScript------------------------------>
+    <script defer src="../Lib/bootstrap-5.0.2/js/bootstrap.js" defer></script>
+
+    <!--------------------Font Awesome------------------------------>
+    <link rel="stylesheet" href="../Lib/fontawesome-free-6.4.0/css/all.css">
+
+    <!---------------------Hojas de estilos Personalizada------------------>
+    <link rel="stylesheet" href="../Metal.css">
+
+    <!----------------------JavaScript Personalizado---------------------->
+    <script defer src="../Metal.js"></script>
+</head>
+
+<body class="background-gradient">
+
+    <!----------------------------------------------------Componente Narbar--------------------------------------------->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg background-gradient">
+                    <div class="container-fluid ">
+
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../assets/svgs/Logo-navbar-OjosVioleta.svg" id="imagenLogoVioleta" alt="..."
+                                width="140" height="130">
+                            <img src="../assets/svgs/Logo-navbar-blanco.svg" id="imagenLogoBlanco" alt="" width="140"
+                                height="130">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=" text-light metal-navbar ">Menu</span>
+                        </button>
+
+                        <div class="collapse navbar-collapse metal-navbar" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link " aria-current="page" href="./generos.html">Generos</a>
+                                <a class="nav-link" href="./Eventos.html">Eventos</a>
+                                <a class="nav-link" href="../index.html#contactos">Contacto</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------Seccion del Formulario---------------------------------------------->
+    <section class="container grid-form section-form">
+        <div class="img-form">
+            <img src="../assets/images/img-formulario.jpg" alt="crow" width="600px" height="700px">
+        </div>
+        <div id="manejoForm">
+            <h1>Venta de Entradas</h1>
+            <form class="row g-3 needs-validation" novalidate>
+
+                <div class="row  g-3" style="margin: auto; padding: 20px auto;">
+
+                    <div class="d-flex justify-content-center col-form precio-texto" id="precio"> Precio por entrada
+                        1000$ - Descuento y tiempo</div>
+
+                    <div class="col-md-8  col-form">
+                        <label for="validCant" class="form-label ">Cantidad de Entradas :</label>
+                    </div>
+
+                    <div class="col-md-4">
+                        <input id="validCant" type="number" class="form-control" min="1" max="5" value="0" required>
+                    </div>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaOpcionesDePago" class="form-label">Formas de Pago :</label>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="form-select" id="validaOpcionesDePago" required>
+                            <option selected disabled value="">Opciones de Pago...</option>
+                            <option value="1">Debito</option>
+                            <option value="2">Credito</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaNombre" class="form-label">Nombre :</label>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
+                            id="validaNombre" required>
+                    </div>
+
+                    <div class="col-md-6 col-form">
+                        <label for="validaApellido" class="form-label">Apellido :</label>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input pattern="[a-zA-ZÀ-ÿ-' ]+" type="text" class="form-control" minlength="3" maxlength="32"
+                            id="validaApellido" required>
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                        <button class="btn boton-form" type="button" id="boton"
+                            onclick="validacion();">Siguiente</button>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input class="btn boton-form" type="button" onclick="history.back()" name="volver atrás"
+                            value="volver atrás">
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------------Componente footer-------------------------------------------------------------->
+    <footer class="d text-center mt-5">
+        <div class="card text-center metal-footer">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-8 d-flex justify-content-center">
+                        <h5 class="text-center">Síguenos en:</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-youtube  fa-2xl" style="color: #ffffff;"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-facebook  fa-2xl" style="color: #ffffff;"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-instagram  fa-2xl" style="color: #ffffff;"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a target="_blank" href="#" class="btn-social btn-outline"><i
+                                        class="fa-brands fa-whatsapp  fa-2xl" style="color: #ffffff;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 footer-col">
+                            <h3>Generos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Power Metal</li>
+                                <li class="list-group-item">Heavy Metal</li>
+                                <li class="list-group-item">Thrash Metal</li>
+                                <li class="list-group-item">Speed Metal</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Productos</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Registrarse</li>
+                                <li class="list-group-item">Ingresar</li>
+                                <li class="list-group-item">Suscripciones</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 footer-col">
+                            <h3>Contacto</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Telefono</li>
+                                <li class="list-group-item">Correo</li>
+                                <li class="list-group-item">Ayuda</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 footer-col">
+                            <h3>Dirección</h3>
+                            <p>
+                                CABA - Argentina <br />
+                                carrasco 400
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    <p>Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script> Todos Los Derechos Reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+
+</html>
